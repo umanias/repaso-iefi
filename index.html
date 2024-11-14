@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="shortcut icon"
+            href="./recursos/imagenes/favicon.svg"
+            type="image/x-icon"
+        />
+        <link href="recursos/css/base.css" rel="stylesheet" type="text/css" />
+        <script type="module" src="recursos/js/index.js"></script>
+        <title>La Caferería</title>
+    </head>
+    <body>
+        <header class="encabezado-principal">
+            <div>
+                <a
+                    href="/"
+                    aria-label="logo ir al inicio"
+                >
+                    <img
+                        src="
+                ./recursos/imagenes/logo.svg"
+                        alt="Logo La Cafeteria"
+                    />
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contenido-principal inicio">
+            <header class="hero">
+                <h1>La Cafeteria</h1>
+                <p>Bienvenidos a un lugar de aromas y sensaciones</p>
+                <a href="#carta">Ver carta</a>
+            </header>
+            <section
+                class="carta"
+                id="carta"
+                aria-labelledby="carta-titulo"
+            >
+                <h2 class="titulo" id="carta-titulo">Carta</h2>
+                <div id="carta-productos" class="carta__productos">
+                    
+                </div>
+            </section>
+            <section
+                class="galeria"
+                aria-labelledby="galeria-principal"
+            >
+                <h2 class="titulo" id="galeria-principal">Galeria</h2>
+                <div class="fotos">
+                    <img src="recursos/imagenes/g-1.jpg" alt="Imagen 1">
+                    <img src="recursos/imagenes/g-2.jpg" alt="Imagen 2">
+                </div>
+            </section>
+        </main>
+        <footer class="pie-principal">
+            <ul>
+                <li>La Cafetería - 2024</li>
+                <li>
+                    <a
+                        target="_nuevo"
+                        href="https://igaw1.com"
+                    >
+                        <img src="recursos/imagenes/ig.svg" alt="Instagram">
+                        intagram
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
